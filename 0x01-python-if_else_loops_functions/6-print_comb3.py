@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for a in range(0, 10):
-    for b in range((a+1), 10):
-        if (a != 8) or (b != 9):
-            print("{}{}, ".format(a, b), end="")
-        else:
-            print("{}{}".format(a, b))
+number = 0
+while number <= 89:
+    if number % 10 == 0:
+        number += 1 + number // 10
+    print("{:02d}".format(number), end='\n' if number == 89 else ", ")
+    number += 1
