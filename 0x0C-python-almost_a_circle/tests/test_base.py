@@ -1,20 +1,3 @@
-
-IamNaeto
-/
-alx-higher_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-higher_level_programming/0x0C-python-almost_a_circle/tests/test_models/test_base.py
-@IamNaeto
-IamNaeto 0x0C-python-almost_a_circle
- 1 contributor
-441 lines (388 sloc)  16.8 KB
 #!/usr/bin/python3
 """Unittest for base.py file
 """
