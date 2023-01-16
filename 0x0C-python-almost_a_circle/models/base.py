@@ -52,7 +52,7 @@ class Base:
         if list_objs is not None:
             for obj in list_objs:
                 dictionary = obj.to_dictionary()
-list_dictionaries.append(dictionary)
+                list_dictionaries.append(dictionary)
             json_string = Base.to_json_string(list_dictionaries)
         with open(filename, 'w') as f:
             if list_objs is None:
@@ -81,7 +81,6 @@ list_dictionaries.append(dictionary)
            dictionary: Dictionary with all attributes of the object
         Return:
            A instance with all attributes already set
-
         """
         if cls.__name__ == "Rectangle":
             dummy = cls(1, 1)
