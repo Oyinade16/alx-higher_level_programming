@@ -1,20 +1,3 @@
-
-IamNaeto
-/
-alx-higher_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-higher_level_programming/0x0C-python-almost_a_circle/tests/test_models/test_square.py
-@IamNaeto
-IamNaeto 0x0C-python-almost_a_circle
- 1 contributor
-274 lines (243 sloc)  8.72 KB
 #!/usr/bin/python3
 """Unittest for square.py file
 """
